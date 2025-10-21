@@ -6,7 +6,7 @@
 
 - make database
   ```shell
-  java -jar ${ip2region_root}/maker/java/dbMaker-1.2.2.jar -src new.ip.merge.txt -region global_region.csv -dst ${ip2region_root}
+  ${ip2region_root}/maker/cpp/xdb_make --db ${ip2region_root}/data/ip2region_yh.xdb --src ${ip2region_root}/data/new.ipv4_source.txt
   ```
 
 - rebuild dev image for new ip2region database
