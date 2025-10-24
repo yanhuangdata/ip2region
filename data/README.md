@@ -1,8 +1,10 @@
 - add english country name column
   ```shell
+  pip install translate
+  pip install argostranslate
   python map_en_country.py
   ```
-  this will use `country_mapping.json` to generate `new.ip.merge.txt`
+  this will use`translate` and `argostranslate` to generate `new.ip.merge.txt`
 
 - make database
   ```shell
